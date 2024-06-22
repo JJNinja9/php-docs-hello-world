@@ -1,49 +1,24 @@
 <?php
-    print "ATM test";
-    print "1. Withdrawal ";
-    print "2. Deposit ";
-    print "3. Other ";
 
-    $balance = 500;
+print "please select an option.";
+print "1. deposit";
+print "2. withdrawal";
+print "3. other";
 
-        $option = readline("Command: ");
+$option = readline("Enter an option: "); 
 
-        if ($option) == "1"
-        {
-            print "How much would you like to withdraw?";
-            //$amount = readline("Command: ");
-            
-            if ($amount > $balance)
-            {
-                print "error. insufficient funds. calling police.";
-            }
+if ($option = "1")
+{
+    print "you have deposited $10";
+}
 
-            else {
-                print "Transaction successful.";
-            }
+if ($option = "2")
+{
+    print "how much would you like to withdraw? great! you have withdrawn $1000";
+}
 
-        }
-
-        if ($option == "2")
-        {
-            print "How much would you like to deposit?";
-            //$amount = readline("Command: ");
-            
-            if (!is_numeric($amount))
-            {
-                print "Please enter a number.";
-                //$amount = readline("Command: ");
-            }
-
-            if (is_numeric($amount))
-            {
-                print "Deposit successful.";
-            }
-        }
-
-        if ($option == "3")
-        {
-            print "this does nothing. hahaha got em";
-        }
-
+if ($option = "3")
+{
+    print "there is no option 3. hahah got em";
+}
 ?>
