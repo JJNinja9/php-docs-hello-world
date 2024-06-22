@@ -1,9 +1,9 @@
 <?php
 
-print "please select an option.";
-print "1. deposit";
-print "2. withdrawal";
-print "3. other";
+print "please select an option.\n";
+print "1. deposit\n";
+print "2. withdrawal\n";
+print "3. other\n";
 
 $option = readline("Enter an option: "); 
 
