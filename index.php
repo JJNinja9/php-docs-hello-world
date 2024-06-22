@@ -11,7 +11,7 @@
         if ($option) == "1"
         {
             print "How much would you like to withdraw?";
-            $amount = readline("Command: ");
+            //$amount = readline("Command: ");
             
             if ($amount > $balance)
             {
@@ -27,12 +27,12 @@
         if ($option == "2")
         {
             print "How much would you like to deposit?";
-            $amount = readline("Command: ");
+            //$amount = readline("Command: ");
             
             if (!is_numeric($amount))
             {
                 print "Please enter a number.";
-                $amount = readline("Command: ");
+                //$amount = readline("Command: ");
             }
 
             if (is_numeric($amount))
