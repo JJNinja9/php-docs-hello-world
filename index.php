@@ -1,10 +1,3 @@
-<!--<!DOCTYPE html>
-<body>
-<form action="40percent.azurewebsites.net" method="POST">
-    <input type="text" name="num" size="5">
-    <input type = "submit" name="submit" value="Calculate!">
-</form>
-
 <?php
 	$num = $_POST['num'];
 	
