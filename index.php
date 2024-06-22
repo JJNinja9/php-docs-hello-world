@@ -1,8 +1,8 @@
 <?php
-    print "ATM test\n\n";
-    print "1. Withdrawal\n";
-    print "2. Deposit\n";
-    print "3. Other\n\n";
+    print "ATM test";
+    print "1. Withdrawal ";
+    print "2. Deposit ";
+    print "3. Other ";
 
     $balance = 500;
 
