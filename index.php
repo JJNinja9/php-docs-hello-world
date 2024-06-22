@@ -42,4 +42,9 @@
             }
         }
 
+        if ($option == "3")
+        {
+            print "this does nothing. hahaha got em";
+        }
+
 ?>
