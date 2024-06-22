@@ -7,7 +7,6 @@
     $balance = 500;
 
         $option = readline("Command: ");
-        //readline_add_history($line);
 
         if ($option) == "1"
         {
