@@ -19,6 +19,27 @@
                 print "error. insufficient funds. calling police.";
             }
 
+            else {
+                print "Transaction successful.";
+            }
+
+        }
+
+        if ($option == "2")
+        {
+            print "How much would you like to deposit?";
+            $amount = readline("Command: ");
+            
+            if (!is_numeric($amount))
+            {
+                print "Please enter a number.";
+                $amount = readline("Command: ");
+            }
+
+            if (is_numeric($amount))
+            {
+                print "Deposit successful.";
+            }
         }
 
 ?>
