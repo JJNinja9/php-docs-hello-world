@@ -1,11 +1,3 @@
-<?php
-	$num = $_POST['num'];
-	
-	print "40% of $num is " . number_format($num * .4, 2);
-?> 
-</body>
-</html> -->
-
 <!doctype html>
 <html lang="en">
 <head>
